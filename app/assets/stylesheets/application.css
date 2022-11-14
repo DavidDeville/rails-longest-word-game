@@ -13,3 +13,66 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+ .container {
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .letters {
+  margin-bottom: 20px;
+ }
+
+ .letter {
+  color: white;
+  font-size: 45px;
+  padding: 15px;
+  height: 40px;
+  width: 40px;
+  background-color:cornflowerblue
+ }
+
+ h2, form {
+  text-align: center;
+ }
+
+input {
+  width: 300px;
+  height: 30px;
+}
+
+.play-btn {
+  width: 40px;
+  height: 35px;
+}
+
+.replay-btn {
+  text-align: center;
+  background-color: black;
+  margin: 0 auto;
+  width: 60px;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.replay-btn > a {
+  text-decoration: none;
+  color: white;
+}
+
+.replay-btn > a:hover {
+  text-decoration: none;
+  color:burlywood;
+  transition: 0.3s ease;
+}
+
+.message {
+  text-align: center;
+  margin-bottom: 30px;
+}

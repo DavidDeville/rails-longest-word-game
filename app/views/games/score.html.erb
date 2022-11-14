@@ -1,0 +1,15 @@
+<h1>Result</h1>
+
+<div class="container">
+  <div class="message">
+    <%= @message %>
+  </div>
+</div>
+
+<div class="replay-btn">
+  <%= link_to "Play again!", "/new" %>
+</div>
+
+<div class="container">
+  <p>Current score: <%= session[:score] %></p>
+</div>
